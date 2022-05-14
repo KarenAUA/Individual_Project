@@ -1,0 +1,13 @@
+1.Introduction
+
+1.1Project Description
+
+Crc-32 is a cyclic redundancy check which commonly used in digital netweorks and storage devices to detect accidental changes of the digital data. User will input the datta and will get the hashed value. In websites, when the user inserts the password, it doesn't saved in the data server directly. 
+
+1.2 Description of the steps
+
+Data input entering to this system get some chekc value attached, which will be replaced with the remainder, when we devide the initial input with zeros to some polinomial which is defined for everyone. The algorithm executed by "C" programming language. Since linux and other operational systems does not accept the library <conio.h>,we have to work with bitwise operators which is available for our common used libraries. Everything that user insertes can be represented in strings, so each letter, number or sign has a binary representation according to ASCII table. Our program will take each component, in our case it is denoted by byte and will execute the algorithm. The number of 0's that will be added to the initial input is less by 1 then the divisor, which is called a generator polinomial. Why we use polynomial instead ofbinary number? The answer to this question is that we have to avoid "taking into account" cases, which can lead to a wrong direction and error detection can be failed.In this program we also added new term called field axiom, which defines its mathematical rules and applications to solve mathematical problems. The field is suited inthe way that is the same for XOR operation. What the algorithm will do? The input inserted by the user will be stored in some array which has a size of maximum 32. I defined a separate function, which will take as an argument the copy of what has been inserted by the user, so the initial version will not be modified. The programm will take one byte in each trial in while statement(0 means the end of the string) which has 8 bits and do the division. Then get the remainder and shift the divisor until the next 1 bit, then do it  again, until the length of the remainer will be less then the length of the divisor. In main function we just called the algorithm and inserted some input values, so we can chekc whether this is working properly or not.
+
+The detailed explanation you will see in the video.
+
+

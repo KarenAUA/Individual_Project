@@ -1,0 +1,17 @@
+dataword    101111        new dataword 101111000
+generator   1011                       1011
+
+	result of the dirst loop       000011000
+
+
+
+checking 0s           dataword for the next loop   11000
+						   1011
+		result of the second loop          01110
+
+
+
+
+checking 0's            1110
+			1011
+	Result          0101
