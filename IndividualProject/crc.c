@@ -34,7 +34,7 @@ int main()
 	unsigned char data[32];
 	printf("Enter the data \n");
 	
-	scanf("%s", &data);
+	scanf("%u", &data);
 	printf("Your data is: \"%s\"\n", data);
 	unsigned int result = crc32(data);
 	printf("Your hash is: \"%x\"\n", result);
